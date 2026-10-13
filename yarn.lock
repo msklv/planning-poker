@@ -3320,13 +3320,6 @@ create-jest@^29.7.0:
     jest-util "^29.7.0"
     prompts "^2.0.1"
 
-cross-fetch@3.1.6:
-  version "3.1.6"
-  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.6.tgz"
-  integrity sha512-riRvo06crlE8HiqOwIpQhxwdOk4fOeR7FVM/wXoxchFEqMNUjvbs3bfo4OTgMEMHzppd4DxFBDbyySj8Cv781g==
-  dependencies:
-    node-fetch "^2.6.11"
-
 cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -4192,12 +4185,10 @@ i18next-browser-languagedetector@^7.1.0:
   dependencies:
     "@babel/runtime" "^7.19.4"
 
-i18next-http-backend@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/i18next-http-backend/-/i18next-http-backend-2.2.1.tgz"
-  integrity sha512-ZXIdn/8NJIBJ0X4hzXfc3STYxKrCKh1fYjji9HPyIpEJfvTvy8/ZlTl8RuTizzCPj2ZcWrfaecyOMKs6bQ7u5A==
-  dependencies:
-    cross-fetch "3.1.6"
+i18next-http-backend@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/i18next-http-backend/-/i18next-http-backend-4.0.2.tgz#22ff8ddb13a7d416754996ea25890c5d9dd18702"
+  integrity sha512-oay62dIB2kL7+WHzoUXBjWfL3+mwijD3pQkQkIEaRLhy6kjXxUhrRenV0gInwlCASAaJaDy94+XvYizK+cAGdA==
 
 i18next@^23.2.11:
   version "23.2.11"
@@ -5445,13 +5436,6 @@ node-fetch@2.6.1, node-fetch@^2.3.0:
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-node-fetch@^2.6.11:
-  version "2.6.12"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.12.tgz"
-  integrity sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==
-  dependencies:
-    whatwg-url "^5.0.0"
-
 node-forge@^0.10.0:
   version "0.10.0"
   resolved "https://registry.npmjs.org/node-forge/-/node-forge-0.10.0.tgz"
@@ -6375,11 +6359,6 @@ tr46@^5.1.0:
   dependencies:
     punycode "^2.3.1"
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
-  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
 tsconfck@^3.0.3:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-3.1.5.tgz#2f07f9be6576825e7a77470a5304ce06c7746e61"
@@ -6542,11 +6521,6 @@ web-vitals@^1.0.1:
   resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.1.tgz"
   integrity sha512-jYOaqu01Ny1NvMwJ3dBJDUOJ2PGWknZWH4AUnvFOscvbdHMERIKT2TlgiAey5rVyfOePG7so2JcXXZdSnBvioQ==
 
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
-  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
-
 webidl-conversions@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-7.0.0.tgz#256b4e1882be7debbf01d05f0aa2039778ea080a"
@@ -6590,14 +6564,6 @@ whatwg-url@^14.0.0, whatwg-url@^14.1.1:
   dependencies:
     tr46 "^5.1.0"
     webidl-conversions "^7.0.0"
-
-whatwg-url@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
-  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
-  dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
